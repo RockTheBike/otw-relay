@@ -270,4 +270,26 @@ Wire Wire Line
 	7025 2875 7025 3350
 Wire Wire Line
 	7025 3350 7400 3350
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 5C63C908
+P 7425 1000
+F 0 "J1" H 7398 976 50  0000 R CNN
+F 1 "AC_L" V 7576 1040 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1000 50  0001 C CNN
+F 3 "~" H 7425 1000 50  0001 C CNN
+	1    7425 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 5C63C9D4
+P 7425 1200
+F 0 "J8" H 7398 1176 50  0000 R CNN
+F 1 "AC_N" V 7576 1240 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1200 50  0001 C CNN
+F 3 "~" H 7425 1200 50  0001 C CNN
+	1    7425 1200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

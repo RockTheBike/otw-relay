@@ -244,17 +244,6 @@ F 3 "~" H 7400 2025 50  0001 C CNN
 	1    7400 2025
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_WallSocket_Earth J1
-U 1 1 5C637C59
-P 7425 1200
-F 0 "J1" H 7680 1211 50  0000 L CNN
-F 1 "AC_SOCKET" H 7680 1120 50  0000 L CNN
-F 2 "" H 7125 1300 50  0001 C CNN
-F 3 "~" H 7125 1300 50  0001 C CNN
-	1    7425 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7225 1000 4625 1000
 Wire Wire Line
@@ -281,4 +270,26 @@ Wire Wire Line
 	7025 2875 7025 3350
 Wire Wire Line
 	7025 3350 7400 3350
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5C63C908
+P 7425 1000
+F 0 "J?" H 7397 976 50  0000 R CNN
+F 1 "1377g1-bk" V 7576 1040 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1000 50  0001 C CNN
+F 3 "~" H 7425 1000 50  0001 C CNN
+	1    7425 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5C63C9D4
+P 7425 1200
+F 0 "J?" H 7397 1176 50  0000 R CNN
+F 1 "1377g1-bk" V 7576 1240 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1200 50  0001 C CNN
+F 3 "~" H 7425 1200 50  0001 C CNN
+	1    7425 1200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
