@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:otw-relay-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5C634343
 P 4875 1225
 F 0 "J2" V 4981 1266 50  0000 L CNN
 F 1 "1377g1-bk" V 5026 1265 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4875 1225 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4875 1225 50  0001 C CNN
 F 3 "~" H 4875 1225 50  0001 C CNN
 	1    4875 1225
 	0    1    1    0   
@@ -41,7 +42,7 @@ U 1 1 5C634495
 P 4875 1575
 F 0 "J5" V 4981 1616 50  0000 L CNN
 F 1 "1377g2-bk" V 5026 1615 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4875 1575 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4875 1575 50  0001 C CNN
 F 3 "~" H 4875 1575 50  0001 C CNN
 	1    4875 1575
 	0    1    1    0   
@@ -52,7 +53,7 @@ U 1 1 5C634599
 P 5075 1225
 F 0 "J3" V 5181 1266 50  0000 L CNN
 F 1 "1377g1-bk" V 5226 1265 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5075 1225 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 5075 1225 50  0001 C CNN
 F 3 "~" H 5075 1225 50  0001 C CNN
 	1    5075 1225
 	0    1    1    0   
@@ -63,7 +64,7 @@ U 1 1 5C63459F
 P 5075 1575
 F 0 "J6" V 5181 1616 50  0000 L CNN
 F 1 "1377g2-bk" V 5226 1615 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5075 1575 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 5075 1575 50  0001 C CNN
 F 3 "~" H 5075 1575 50  0001 C CNN
 	1    5075 1575
 	0    1    1    0   
@@ -74,7 +75,7 @@ U 1 1 5C63462F
 P 5275 1225
 F 0 "J4" V 5381 1266 50  0000 L CNN
 F 1 "1377g1-bk" V 5426 1265 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5275 1225 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 5275 1225 50  0001 C CNN
 F 3 "~" H 5275 1225 50  0001 C CNN
 	1    5275 1225
 	0    1    1    0   
@@ -85,7 +86,7 @@ U 1 1 5C634635
 P 5275 1575
 F 0 "J7" V 5381 1616 50  0000 L CNN
 F 1 "1377g2-bk" V 5426 1615 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5275 1575 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 5275 1575 50  0001 C CNN
 F 3 "~" H 5275 1575 50  0001 C CNN
 	1    5275 1575
 	0    1    1    0   
@@ -275,7 +276,7 @@ L Connector:Conn_01x01_Male J1
 U 1 1 5C63C908
 P 7425 1000
 F 0 "J1" H 7398 976 50  0000 R CNN
-F 1 "AC_L" V 7576 1040 50  0001 L CNN
+F 1 "AC_L" H 7125 975 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1000 50  0001 C CNN
 F 3 "~" H 7425 1000 50  0001 C CNN
 	1    7425 1000
@@ -286,10 +287,12 @@ L Connector:Conn_01x01_Male J8
 U 1 1 5C63C9D4
 P 7425 1200
 F 0 "J8" H 7398 1176 50  0000 R CNN
-F 1 "AC_N" V 7576 1240 50  0001 L CNN
+F 1 "AC_N" H 7100 1175 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_single_2-5mmDrill" H 7425 1200 50  0001 C CNN
 F 3 "~" H 7425 1200 50  0001 C CNN
 	1    7425 1200
 	-1   0    0    1   
 $EndComp
+Text Notes 4650 1600 0    50   ~ 0
+view looking into\nconnector on relay board
 $EndSCHEMATC
