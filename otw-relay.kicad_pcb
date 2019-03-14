@@ -878,7 +878,7 @@
       (net 12 "Net-(J8-Pad1)"))
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64ECC0)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C105) (tstamp 5C64ECC0)
     (at 167.85 120)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -904,7 +904,7 @@
     (fp_line (start -1.9 -1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end 1.9 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 1 "Net-(J1-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
@@ -913,7 +913,7 @@
     )
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64ED4D)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C113) (tstamp 5C64ED4D)
     (at 175.75 120)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -939,7 +939,7 @@
     (fp_text user %R (at 0 2.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
@@ -948,7 +948,7 @@
     )
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64F2CC)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C11E) (tstamp 5C64F2CC)
     (at 183.65 120)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -974,7 +974,7 @@
     (fp_text user %R (at 0 2.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 3 "Net-(J4-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
@@ -983,7 +983,7 @@
     )
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64EF7B)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C127) (tstamp 5C64EF7B)
     (at 167.85 123.8)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -1009,7 +1009,7 @@
     (fp_line (start -1.9 -1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end 1.9 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
@@ -1018,7 +1018,7 @@
     )
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64F299)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C130) (tstamp 5C64F299)
     (at 175.75 123.8)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -1044,7 +1044,7 @@
     (fp_line (start -1.9 -1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end 1.9 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 3 "Net-(J4-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
@@ -1053,7 +1053,7 @@
     )
   )
 
-  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 5C64F266)
+  (module Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork (layer F.Cu) (tedit 5C89C136) (tstamp 5C64F266)
     (at 183.65 123.8)
     (descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
     (tags "solder Pin_ with flat fork")
@@ -1079,7 +1079,7 @@
     (fp_line (start -1.9 -1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end 1.9 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.9 1.8) (end -1.9 1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.55) (layers *.Cu *.Mask)
       (net 4 "Net-(J7-Pad1)"))
     (model ${KISYS3DMOD}/Connector_Pin.3dshapes/Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork.wrl
       (at (xyz 0 0 0))
