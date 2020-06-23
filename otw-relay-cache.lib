@@ -1,28 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x01_Male
+# otw-relay-rescue_CP-Device
 #
-DEF Connector:Conn_01x01_Male J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x01_Male" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-S 34 5 0 -5 1 1 6 F
-P 2 1 1 6 50 0 34 0 N
-X Pin_1 1 200 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:CP
-#
-DEF Device:CP C 0 10 N Y 1 F N
+DEF otw-relay-rescue_CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP" 25 -100 50 H V L CNN
+F1 "otw-relay-rescue_CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +24,28 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D
+# otw-relay-rescue_Conn_01x01_Male-Connector
 #
-DEF Device:D D 0 40 N N 1 F N
+DEF otw-relay-rescue_Conn_01x01_Male-Connector J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "otw-relay-rescue_Conn_01x01_Male-Connector" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# otw-relay-rescue_D-Device
+#
+DEF otw-relay-rescue_D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
+F1 "otw-relay-rescue_D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +64,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_TVS
+# otw-relay-rescue_D_TVS-Device
 #
-DEF Device:D_TVS D 0 40 N N 1 F N
+DEF otw-relay-rescue_D_TVS-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_TVS" 0 -100 50 H V C CNN
+F1 "otw-relay-rescue_D_TVS-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -88,28 +88,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# otw-relay-rescue_FINDER-34.51-Relay
 #
-DEF Device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *:R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Relay:FINDER-34.51
-#
-DEF Relay:FINDER-34.51 K 0 40 Y Y 1 F N
+DEF otw-relay-rescue_FINDER-34.51-Relay K 0 40 Y Y 1 F N
 F0 "K" 450 150 50 H V L CNN
-F1 "Relay:FINDER-34.51" 450 50 50 H V L CNN
+F1 "otw-relay-rescue_FINDER-34.51-Relay" 450 50 50 H V L CNN
 F2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" 1140 -40 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,6 +121,23 @@ X ~ 12 100 300 100 D 50 50 1 1 P
 X ~ 14 300 300 100 D 50 50 1 1 P
 X ~ A1 -200 300 100 D 50 50 1 1 P
 X ~ A2 -200 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# otw-relay-rescue_R-Device
+#
+DEF otw-relay-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "otw-relay-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *:R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
